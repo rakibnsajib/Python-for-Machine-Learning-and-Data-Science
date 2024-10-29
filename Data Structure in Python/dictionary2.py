@@ -1,4 +1,4 @@
-# Example 2: Accessing Dciaonary Values
+# Example 2: Accessing Dictionary Values
 # Values in a dictionary can be accessed using their keys.
 # If a value is not found, a KeyError is raised unless you use the get() method, which returns the default value None if the key is not found.
 

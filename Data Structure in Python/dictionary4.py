@@ -1,4 +1,4 @@
-# Example 4: Adding Key-Value Pairs to a Dictoinary
+# Example 4: Adding Key-Value Pairs to a Dictionary
 # You can add key-value pairs to a dictionary using assigning a value to a new key.
 
 # Example Dictionary

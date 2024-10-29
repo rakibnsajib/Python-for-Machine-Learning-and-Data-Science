@@ -1,4 +1,4 @@
-# Example 2: Adding Elementws to a Set
+# Example 2: Adding Elements to a Set
 # You can add elements to a set using the add() and update() methods.
 # Sets do not allow duplicate elements. If you try to add an element that is already present in the set, it will not be added again.
 
