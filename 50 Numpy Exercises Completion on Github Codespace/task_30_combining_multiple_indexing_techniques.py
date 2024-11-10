@@ -7,6 +7,10 @@ import numpy as np
 array_2d = np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])
 
 # Combining boolean, fancy, and slice indexing
-result = array_2d[array_2d > 30][:, [0, 2]]
+# Step 1: Apply boolean indexing to filter values > 30
+filtered = array_2d[array_2d > 30]
+
+# Step 2: Apply fancy indexing (column selection)
+result = filtered[:, [0, 2]] if filtered.ndim > 1 else filtered
 
 print('Combined Indexing Result:', result)
